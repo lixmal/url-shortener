@@ -2,7 +2,7 @@
 package token
 
 import (
-	// With the length constraint given (10) it doesn't really make sense to use e CSPRNG
+	// With the length constraint given (10) it doesn't really make sense to use a CSPRNG
 	// so we're going with this for simplicity
 	"math/rand"
 	"time"
